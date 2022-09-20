@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: url(https://img.freepik.com/free-photo/pencil-sketch-background_1409-1475.jpg?w=2000);
+    
+}
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: solid black 2px;
+}
+
+.title {
+    font-size: 70px;
+    color: brown;
+    text-align: center;
+    text-shadow: 30px;
+    background-color: beige;
+    border: solid black 2px;
+    border-bottom: 0px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 20px;
+    align-items: center;
+    background-color: beige;
+    border: solid darkgreen 2px;
+}
+
+input {
+    background-color: beige;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: lightsalmon;
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
